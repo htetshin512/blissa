@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive;
+    background-image: url('Nature.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: darkgreen;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: darkgreen;
+}
+
+.menu-link, .about-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-link:hover, .about-link:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+
+.logo img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+
+.menu-section {
+    background-color: mediumseagreen;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px gray;
+}
+
+.menu-section h2 {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    font-size: 16px;
+    margin: 8px 0;
+    color: darkgreen;
+}
+
+
+.menu-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
