@@ -1,0 +1,64 @@
+body.about-page {
+    background: url('Nature.jfif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+}
+
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.logo img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.content-section {
+    background-color: green; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover animation for content boxes */
+.content-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px gray;
+}
+
+h2 {
+    color: yellow;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Back to Home button styles */
+.menu-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Pop-out animation for Back to Home button */
+.menu-link:hover {
+    background-color: lightcoral;
+    transform: scale(1.1);
+}
